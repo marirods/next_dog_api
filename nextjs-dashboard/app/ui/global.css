@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Seus estilos customizados */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+.galeria {
+  columns: 4;
+  max-width: 100%;
+  margin: 0 auto auto;
+}
+
+.galeria img {
+  width: 100%;
+  padding-block: 4px;
+  margin-top: 20px;
+  border: 5px solid #692b2b;
+  box-shadow: 2px 2px 50px 1px #000000;
+}
+
+#pesquisar {
+  padding: 12px 12px;
+  margin-top: 15px;
+  font-size: 14px;
+  outline: none;
+  background-color: #692b2b;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  
+
+}
+
+#raca {
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-right: 12px;
+}
